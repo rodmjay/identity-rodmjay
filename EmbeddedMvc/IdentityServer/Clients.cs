@@ -17,12 +17,12 @@ namespace EmbeddedMvc.IdentityServer
 
                     RedirectUris = new List<string>
                     {
-                        "https://localhost:44319/"
-                    },
+						"https://identity-rodmjay.azurewebsites.net/"
+					},
                     PostLogoutRedirectUris = new List<string>
                     {
-                        "https://localhost:44319/"
-                    },
+						"https://identity-rodmjay.azurewebsites.net/"
+					},
                     AllowedScopes = new List<string>
                     {
                         "openid",

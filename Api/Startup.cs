@@ -17,7 +17,7 @@ namespace Api
             // token validation
             app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
             {
-                Authority = "https://localhost:44319/identity",
+                Authority = "https://identity-rodmjay.azurewebsites.net/identity",
                 RequiredScopes = new[] { "sampleApi" }
             });
 
