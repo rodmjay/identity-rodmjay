@@ -1,14 +1,15 @@
-﻿using Microsoft.Owin;
-using Owin;
-using System.Web.Http;
-using IdentityServer3.AccessTokenValidation;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using System.Security.Claims;
-using System.Linq;
+using System.Threading.Tasks;
+using System.Web.Http;
+using GPN.API;
+using IdentityServer3.AccessTokenValidation;
+using Microsoft.Owin;
+using Owin;
 
-[assembly: OwinStartup(typeof(Api.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
-namespace Api
+namespace GPN.API
 {
     public class Startup
     {

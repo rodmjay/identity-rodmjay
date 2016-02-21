@@ -3,7 +3,7 @@ using System.Web;
 using System.Web.Mvc;
 using Thinktecture.IdentityModel.Mvc;
 
-namespace EmbeddedMvc.Controllers
+namespace GPN.Controllers
 {
     public class HomeController : Controller
     {

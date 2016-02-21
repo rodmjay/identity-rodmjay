@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace EmbeddedMvc
+namespace GPN
 {
     public class FilterConfig
     {

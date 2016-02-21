@@ -1,12 +1,11 @@
-﻿using IdentityModel.Client;
-using Newtonsoft.Json.Linq;
-using System;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using IdentityModel.Client;
+using Newtonsoft.Json.Linq;
 
-namespace EmbeddedMvc.Controllers
+namespace GPN.Controllers
 {
     public class CallApiController : Controller
     {

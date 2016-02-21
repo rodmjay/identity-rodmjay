@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC Authentication", "EmbeddedMvc\MVC Authentication.csproj", "{6FF07508-76CF-459D-AA97-76B3BAD58D65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPN", "EmbeddedMvc\GPN.csproj", "{6FF07508-76CF-459D-AA97-76B3BAD58D65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{9CD67510-4FFE-4907-A2D0-560EEE7D11BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPN.API", "Api\GPN.API.csproj", "{9CD67510-4FFE-4907-A2D0-560EEE7D11BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

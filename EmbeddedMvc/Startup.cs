@@ -1,4 +1,16 @@
-﻿using EmbeddedMvc.IdentityServer;
+﻿using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens;
+using System.Linq;
+using System.Security.Claims;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Tasks;
+using System.Web.Helpers;
+using GPN;
+using GPN.IdentityServer;
+using IdentityModel.Client;
+using IdentityServer3.Core;
+using IdentityServer3.Core.Configuration;
 using Microsoft.IdentityModel.Protocols;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
@@ -6,21 +18,10 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OpenIdConnect;
 using Owin;
-using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens;
-using System.Security.Claims;
-using System.Security.Cryptography.X509Certificates;
-using System.Linq;
-using System.Web.Helpers;
-using IdentityServer3.Core;
-using IdentityServer3.Core.Configuration;
-using IdentityModel.Client;
-using System.Threading.Tasks;
 
-[assembly: OwinStartup(typeof(EmbeddedMvc.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
-namespace EmbeddedMvc
+namespace GPN
 {
     public class Startup
     {

@@ -2,7 +2,7 @@
 using System.Security.Claims;
 using System.Web.Http;
 
-namespace Api
+namespace GPN.API
 {
     [Route("identity")]
     [Authorize]
